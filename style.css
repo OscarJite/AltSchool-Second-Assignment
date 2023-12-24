@@ -1,1 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background: #77c4b640;
+}
+.container{
+  background: #77c4b608;
+}
+.logo img {
+  width: 5rem;
+  margin-top: 50px;
+}
+.form{
+  background: #fff;
+  font-size: 14px;
+}
+.btn {
+  background: #2ec4b6;
+  color: #fff;
 
+  &:hover {
+    background: #2ec4b6;
+    color: #fff;
+  }
+}
+.cta{
+  font-size: 14px;
+}
+.cta a{
+  color: #2ec4b6;
+}
